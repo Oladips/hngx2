@@ -272,7 +272,7 @@ class _AddExperienceState extends State<AddExperience> {
                               final s = await showDatePicker(
                                 context: context,
                                 initialDate: endDate ?? DateTime.now(),
-                                firstDate: DateTime(1900),
+                                firstDate: startDate ?? DateTime(1900),
                                 lastDate: DateTime(2100),
                               );
 

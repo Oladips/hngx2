@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       "I am a versatile professional and individual always ready to learn something new every day. I currently work using flutter as a tool which I absolutely love. I will describe myself as a critical thinker, skilled team player with strong background in high- paced environments. I also work well independently to handle assignments and I am always ready to go beyond basics assignments. A quick learner with good computer abilities and always dedicated to the business success.";
   String? email = "abiodundipupo@gmail.com";
   String? phone = "+2348038827305";
-  String? github = "https://github.com/Oladips?tab=repositories";
+  String? github = "https://github.com/Oladips/hngx2";
   String? address = "5 Etegbin last bustop opposite prince kosoko elemikaiye street, shibiri, Ojo, Lagos.";
 
   List<Skill> skills = [
@@ -796,7 +796,7 @@ class _HomePageState extends State<HomePage> {
                                           12.widthSizing,
                                           Expanded(
                                             child: CustomText(
-                                              data: "${lang.language} - ${lang.fluency}",
+                                              data: "${lang.language}",
                                               textAlign: TextAlign.start,
                                               style: context.body1.copyWith(
                                                 fontSize: 13,

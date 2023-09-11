@@ -1,0 +1,38 @@
+name: hng_stage_2
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/img/
+    - assets/fonts/
+
+  fonts:
+    - family: Euclid
+      fonts:
+        - asset: assets/fonts/Euclid-Circular-A-300.ttf
+          weight: 300
+        - asset: assets/fonts/Euclid-Circular-A-400.ttf
+          weight: 400
+        - asset: assets/fonts/Euclid-Circular-A-500.ttf
+          weight: 500
+        - asset: assets/fonts/Euclid-Circular-A-600.ttf
+          weight: 600
+        - asset: assets/fonts/Euclid-Circular-A-700.ttf
+          weight: 700

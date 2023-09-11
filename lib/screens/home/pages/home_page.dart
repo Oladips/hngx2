@@ -339,6 +339,7 @@ class _HomePageState extends State<HomePage> {
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: ListView(
                     children: [
+                      Platform.isAndroid ? 70.heightSizing : 30.heightSizing,
                       CustomText(
                         textAlign: TextAlign.center,
                         data: fullName ?? "",
